@@ -4,7 +4,7 @@
  * main  - print the string in the function
  *
  * Description: using the main function
- * this programme retyurns the size of varios types in the computrer it is run 
+ * this programme retyurns the size of varios types in the computrer it is run
  * Return: 0
  */
 int main(void)
