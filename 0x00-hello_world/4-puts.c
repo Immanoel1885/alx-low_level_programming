@@ -1,6 +1,10 @@
 #include <stdio.h>
 
-/*this fuction prints a string with puts*/
+/**
+ * main - function
+ *
+ * Return - number/meaning
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
