@@ -20,5 +20,5 @@ int main(void)
 	printf("Size of a char: %d byte(s)\n", sizeof(li));
 	printf("Size of a char: %d byte(s)\n", sizeof(lli));
 	printf("Size of a char: %d byte(s)\n", sizeof(f));
-	return (0)	
+	return (0);
 }
