@@ -4,6 +4,7 @@
  * Description: using the main function
  * tis prints out the single digits
  * Return: 0
+ *
  */
 int main(void)
 {
