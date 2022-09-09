@@ -12,11 +12,11 @@ int main(void)
 	int n = 5;
 
 	/* your code goes there */
-	if(n>0)
+	if (n > 0)
 	{
 		printf("%d is positive\n", n);
 	}
-	else if(n<0)
+	else if (n < 0)
 	{
 		printf("%d is neagtive\n", n);
 	}
