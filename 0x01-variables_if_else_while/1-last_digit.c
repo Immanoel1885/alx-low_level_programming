@@ -5,7 +5,7 @@
  * main - print the final digit of int n
  * Description: using the function main
  * this program prints the final digit of n
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
