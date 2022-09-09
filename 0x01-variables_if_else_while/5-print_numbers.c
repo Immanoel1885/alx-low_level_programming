@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * main - print the numbers 
+ * main - print the numbers
  * Description: using the main function
- * tis prints out the single digits
+ * tis prints out the single digit
  * Return: 0
- *
  */
 int main(void)
 {
@@ -16,4 +15,5 @@ int main(void)
 	}
 	printf("\n");
 	return (0);
+
 }
