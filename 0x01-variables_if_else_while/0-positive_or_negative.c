@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h>
 
 /**
  * main - print the type of integer of the random variablr, n
@@ -9,7 +10,10 @@
  */
 int main(void)
 {
-	int n = 5;
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
 
 	/* your code goes there */
