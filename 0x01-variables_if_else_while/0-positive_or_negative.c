@@ -9,9 +9,10 @@
  */
 int main(void)
 {
+	int n = 5;
 
 	/* your code goes there */
-	if(int n>0)
+	if(n>0)
 	{
 		printf("%d is positive\n", n);
 	}
