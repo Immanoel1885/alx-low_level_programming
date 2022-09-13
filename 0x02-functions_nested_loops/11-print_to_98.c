@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - print the numbers between n and 98
  * @n: the argument parsed into the above function
