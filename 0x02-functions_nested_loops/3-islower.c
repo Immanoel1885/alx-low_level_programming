@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "main.h"
-#include <stdlib.h>
 /**
  * _islowe - Entry point
  * Description: checks if a given letter is lowercase
