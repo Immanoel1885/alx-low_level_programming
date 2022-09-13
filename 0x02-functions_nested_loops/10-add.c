@@ -7,9 +7,9 @@
  */
 int add(int a, int b)
 {
-	int ttl = a + b;
+	
 
-	_putchar(ttl);
+	_putchar(a + b);
 	return (0);
 
 }
