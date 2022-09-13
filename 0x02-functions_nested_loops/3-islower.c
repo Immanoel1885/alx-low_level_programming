@@ -7,7 +7,7 @@
  */
 int _islower(int c)
 {
-	int c;
+	
 
 	if (int islower_l(int c, locale_t locale))
 	{
