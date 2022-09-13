@@ -10,5 +10,6 @@ int add(int a, int b)
 	int ttl = a + b;
 
 	_putchar(ttl);
+	return (0);
 
 }
