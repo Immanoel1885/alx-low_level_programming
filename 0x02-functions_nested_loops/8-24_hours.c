@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * jack_buer - function prints every minute of the day
+ * jack_bauer - function prints every minute of the day
  * Return:  0
  */
 void jack_bauer(void)
@@ -8,7 +8,7 @@ void jack_bauer(void)
 	int hours = 0;
 	int minutes = 0;
 	int hours_rem;
-	/*int mins_rem;*/
+	int mins_rem;
 
 	while (hours <= 23)
 	{
@@ -23,6 +23,6 @@ void jack_bauer(void)
 			_putchar('\n');
 		}
 		hours++;
-		minutes = 0;
+		mins_rem = 0;
 	}
 }
