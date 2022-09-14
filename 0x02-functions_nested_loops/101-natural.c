@@ -21,4 +21,5 @@ int calc_multsum (int n, int s)
 			n++;
 	}
 	printf("%d\n", s);
+	return (0);
 }
