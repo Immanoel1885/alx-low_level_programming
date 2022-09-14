@@ -3,9 +3,8 @@
 #include <math.h>
 /**
  * main- entry point
- * @n: the number
- * @s: the sum 
- * Return: s
+ * Description: compute sum of all multiples of 3 and 5
+ * Return: 0
  */
 int main(void)
 {
