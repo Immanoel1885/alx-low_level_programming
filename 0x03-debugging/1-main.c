@@ -2,7 +2,6 @@
 
 /**
  * main - causes an infinite loop
- * @i: the argument
  * Return: 0
  */
 int main(void)
