@@ -1,4 +1,3 @@
-#include "main.h"
 
 /**
  * calc_multsum - entry point
