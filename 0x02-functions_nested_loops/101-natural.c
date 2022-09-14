@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * calc_multsum - entry point
  * @n: the number to be tested
