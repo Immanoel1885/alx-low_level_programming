@@ -19,6 +19,6 @@ int calc_multsum (int n, int s)
 		else
 			n++;
 	}
-	printf("%d\n", s);
+	_putchar(s);
 	return (0);
 }
