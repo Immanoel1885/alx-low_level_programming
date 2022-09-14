@@ -2,9 +2,9 @@
 #include <stdio.h>
 #include <math.h>
 /**
- * calc_multsum - entry point
- * @n: the number to be tested
- * @s: the sum of the numbers
+ * main- entry point
+ * @n: the number
+ * @s: the sum 
  * Return: s
  */
 int main(void)
