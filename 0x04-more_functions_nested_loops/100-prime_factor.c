@@ -11,7 +11,7 @@ void largest_prime_factor(long int num)
 	while (num % 2 == 0)
 		num = num / 2;
 
-	for (prmnu = 3; prmnu <= _sqrt(num); prmnu += 2)
+	for (prmnu = 3; prmnu <= num; prmnu += 2)
 	{
 		while (num % prmnu == 0)
 		{
