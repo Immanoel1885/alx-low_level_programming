@@ -13,10 +13,7 @@ void randpassword(int N)
 {
 	int i = 0;
 	int random = 0;
-	char numbers[10];
-	char letter[26];
-	char LETTER[26];
-	char symbols[9];
+	char numbers[10], letter[26], LETTER[26], symbols[9];
 
 	srand((unsigned int) (time(NULL)));
 
