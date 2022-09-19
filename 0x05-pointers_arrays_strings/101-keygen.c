@@ -14,7 +14,7 @@ void randpassword(int N)
 	int i = 0;
 	int random = 0;
 	char numbers[10];
-	char letter[]26;
+	char letter[26];
 	char LETTER[26];
 	char symbols[9];
 
