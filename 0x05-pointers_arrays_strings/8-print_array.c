@@ -12,9 +12,10 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		_putchar(*a[i]);
-		_putchar(',');
-		_putchar(' ');
+		if (i == (n - 1))
+			_putchar(a[i]);
+		else
+			_putchar(a[i]);
 	}
 	_putchar('\n');
 }
