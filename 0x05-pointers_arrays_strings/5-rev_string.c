@@ -21,6 +21,6 @@ void rev_string(char *s)
 		r[begin] = s[end];
 		end--;
 	}
-	/*r[begin] = '\0';*/
+	s[begin] = '\0';
 	
 }
