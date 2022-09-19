@@ -13,6 +13,10 @@ void randpassword(int N)
 {
 	int i = 0;
 	int random = 0;
+	char numbers[];
+	char letter[];
+	char LETTER[];
+	char symbols[];
 
 	srand((unsigned int) (time(NULL)));
 
