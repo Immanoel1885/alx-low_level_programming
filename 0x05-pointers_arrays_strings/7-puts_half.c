@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * puts_half -  prints the elements of array with odd position
  * @str: the string array to be manipulated
@@ -11,7 +12,7 @@ void puts_half(char *str)
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
-		if (i % 2 != 0)
+		if (i >= strlen(str) - 1 / 2)
 		{
 			_putchar(str[i]);
 		}
