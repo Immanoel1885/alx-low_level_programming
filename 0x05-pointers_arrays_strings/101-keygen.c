@@ -4,67 +4,29 @@
 #include <time.h>
 
 /**
- * randpassword - generates a random, valid, password
- * @N: the argument to be passed
- * Return: nothing
- *
- */
-void randpassword(int N)
-{
-	int i = 0;
-	int random = 0;
-	char numbers[10], letter[26], LETTER[26], symbols[9];
-
-	srand((unsigned int) (time(NULL)));
-
-	char numbers[] = "0123456789";
-	char letter[] = "abcdefghijklmnopqrstuvwxyz";
-	char LETTER[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-	char symbols[] = "!@#$%^&*?";
-	char password[N];
-
-	random  = rand() % 4;
-
-	for (i = 0; i < N; i++)
-	{
-		if (random == 1)
-		{
-			password[i] = numbers[rand() % 10];
-			random = rand() % 4;
-			printf("%c", password[i]);
-		}
-		else if (random == 2)
-		{
-			password[i] = symbols[rand() % 9];
-			random = rand() % 4;
-			printf("%c", password[i]);
-		}
-		else if (random == 3)
-		{
-			password[i] = LETTER[rand() % 26];
-			random = rand() % 4;
-			printf("%c", password[i]);
-		}
-		else 
-		{
-			password[i] = letter[rand() % 26];
-			random = rand() % 4;
-			printf("%c", password[i]);
-		}
-	}
-	printf("\n");
-
-}
-
-/**
  * main - function that calls randpassword
- * Return: 0;
+ * Return: result;
  */
 
 int main()
 {
-	int N = 10;
+	char password[100];
+	int i = 0;
+	int rands = 0;
+	int total = 0;
 
-	randpassword(N);
+	srand((unsigned int)(time(NULL)));
+
+	for (i = 0; total <= 2644; i++)
+	{
+		rands = (rand() % 25) + 65;
+
+		password[i] = rands;
+		total = total + rands;
+	}
+	password[i++] = 2772 - total;
+	password[i++] = '\0';
+	printf("%s\n", password);
+
 	return (0);
 }
