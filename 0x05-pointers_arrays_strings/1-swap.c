@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int _ swaps the value of two paramters
+ * swap_int - swaps the value of two paramters
  * @a: the first parametre
  * @b: the second parameter
  *
