@@ -1,24 +1,23 @@
 #include "main.h"
+#include <stdio.h>
+#define MAX 10
 /**
  * print_chessboard - function that prints the chessboard
  * @a: array of 8 elements
  *
- * Return: result
+ * Return: nothing
  */
-void print_diagsums(int *a, int size)
+void print_chessboard(char (*a)[8])
 {
-	int i = 0;
+	char grid[MAX][MAX];
+	int i, j, row, col;
 
-	while (i < 0)
+	for (i = 0; i < row; i++)
 	{
-		int y = 0;
-
-		while (y < 8)
-		{
-			_putchar (a[i][y]);
-			y++;
-		}
-		_putchar ('\n');
-		i++;
+		grid[i][j] = '.';
+		printf("%c", grid[i][j]);
 	}
+	printf("\n");
+
+	return;
 }
