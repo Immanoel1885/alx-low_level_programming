@@ -8,7 +8,6 @@
  *
  * Return: always s
  */
-
 char *_memset(char *s, char b, unsigned int n)
 {
 	/*int b is the replacer and n is the number of space*/
