@@ -1,5 +1,21 @@
 #include "main.h"
 /**
+ * checker - function to prove square root of n
+ * @n: number
+ * @i: square root
+ *
+ * Return: square root
+ */
+int checker(int n, int i)
+{
+	if ((i * i) == n)
+		return (i);
+	else if ((n > 0) && (i < (n / 2)))
+		return (checker(n, i + 1));
+	else
+		return (-1);
+}
+/**
  * _sqrt_recursion - function returning natural squre root of a number
  * @n: number
  *
@@ -7,7 +23,6 @@
  */
 int _sqrt_recursion(int n)
 {
-	int i = 1;
 
 	if (n < 0)
 		return (-1);
@@ -16,13 +31,6 @@ int _sqrt_recursion(int n)
 	else if (n == 0)
 		return (0);
 	else
-	{
-		if ((i * i) == n)
-			return (i);
-		else if ((n > 0) && (i < (n / 2)))
-			return (checker(n, i + 1));
-		else
-			return (-1);
-	}
+		return (checker(n, 1));
 }
 
