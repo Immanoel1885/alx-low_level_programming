@@ -1,12 +1,13 @@
 #include "main.h"
-
 /**
- * _isdigit - function isdigit
- * @c: c argument
- *
- * Return: 0
+ * _isdigit - checks if input is digit
+ * @c: the letter to be tested
+ * Return: 1 if digit, 0 if not
  */
 int _isdigit(int c)
 {
-	return (0);
+	if (c >= 48 || c <= 57)
+		return (1);
+	else
+		return (0);
 }

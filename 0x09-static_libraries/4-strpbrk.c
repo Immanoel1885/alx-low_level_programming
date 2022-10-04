@@ -1,13 +1,25 @@
 #include "main.h"
 
 /**
- * _strpbrk - function strpbrk
- * @s: s argument
- * @accept: accept aegument
+ * _strpbrk - function that compares two strings and finds sismilarities
+ * @s: the string we'll comare with
+ * @accept: the string to be compared
  *
- * Return: 0
+ * Return: s if pass, NULL if fail
  */
 char *_strpbrk(char *s, char *accept)
 {
-	return (0);
+	while (*s != '\0')
+	{
+		if (*s == *accept)
+		{
+			return (s);
+		}
+		s++;
+	}
+	if (*s != *accept)
+	{
+		return ('\0');
+	}
+	return (s);
 }

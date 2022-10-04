@@ -1,12 +1,12 @@
 #include "main.h"
-
 /**
- * _puts - fnction puts
- * @s: s argument
- *
+ * _puts - write a new line to the stdout
+ * @str: the string thaat gets a new line
  * Return: nothing
  */
-void _puts(char *s)
+void _puts(char *str)
 {
-	return;
+	for (; *str != '\0'; str++)
+		_putchar(*str);
+	_putchar('\n');
 }

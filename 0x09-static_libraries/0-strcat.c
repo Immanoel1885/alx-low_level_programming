@@ -1,13 +1,26 @@
 #include "main.h"
+#include <string.h>
 
 /**
- * _strcat - function strcat
- * @dest: dest argume nt
- * @src: src argument
+ * *_strcat - concatenates two strings together
+ * @dest: the main beginning string
+ * @src: the appendage string
  *
- * Return: 0
+ * Return: dest
  */
 char *_strcat(char *dest, char *src)
-{
-	return (0);
+{ 
+	int c, c2;
+
+	c = 0;
+
+	/*find size of dest array*/
+	while (dest[c])
+		c++;
+
+	/*iterate through each src array value without null byte*/
+	for (c2 = 0; src[c2]; c2++)
+		dest[c++] = src[c2];
+
+	return (dest);
 }
