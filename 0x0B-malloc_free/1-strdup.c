@@ -35,6 +35,5 @@ char *_strdup(char *str)
 		i++;
 	}
 	s[i] = '\0';
-	free(s);
 	return (s);
 }
