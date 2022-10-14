@@ -7,6 +7,7 @@ int _strlen(char *s);
  * new_dog - information of a new dog
  * @name: name of this new doggo
  * @owner: this new doggo's owner
+ * @age: doggo's age
  *
  * Return: success
  */
@@ -51,7 +52,7 @@ char *dup(char *s)
 {
 	char *res;
 	int i, len;
-	
+
 	if (s == NULL)
 		return (NULL);
 
