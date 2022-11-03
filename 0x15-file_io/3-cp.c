@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: a program that copies the content of 
+ * Description: a program that copies the content of
  * a file to another file
  * @argc: number of arguments passed to the program
  * @argv: arguments.
@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	if (i < 0 || j < 0)
 	{
 		if (i < 0)
-			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n",fd1);
+			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd1);
 		if (j < 0)
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd2);
 		exit(100);
